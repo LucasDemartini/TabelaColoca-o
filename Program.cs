@@ -6,7 +6,8 @@ namespace TabelaColocação
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TabelaColocacao tabela = new TabelaColocacao();
+            tabela.tabela();
         }
     }
 }
